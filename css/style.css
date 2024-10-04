@@ -9,7 +9,8 @@
     box-sizing: border-box;
 }
 body{
-   
+    font-family: Whitney,neue Arial, Helvetica, sans-serif;
+    
 }
 .debug{
     border: 1px solid red;
@@ -23,4 +24,17 @@ body{
 }
 .bg-grey{
     background-color: var(--color-grey);
+}
+.d-flex{
+    display: flex;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;}
+.container-small{
+    margin: 0 auto;
+    max-width: 800px
+}
+.content{
+    width: 40%;
 }
