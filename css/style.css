@@ -150,5 +150,9 @@ margin-bottom: 100px;
     color: var(--color-button);
 }
 .testo{
-
+font-size: 30px;
+}
+.img{
+    width: 25px;
+    height: 15px;
 }
