@@ -61,3 +61,9 @@ ul{
 .grow1{
     flex-grow: 1;
 }
+.align-item{
+align-items: center;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
