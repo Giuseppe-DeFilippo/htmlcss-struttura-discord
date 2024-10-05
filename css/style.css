@@ -115,7 +115,13 @@ align-items: center;
     justify-content: center;
 }
 .padding-top{
-    padding-top: 13em;
+    padding-top: 10em;
+}
+.padding-tr{
+    padding-top: 70px;
+}
+.padding-tr2{
+    padding-top: 200px;
 }
 .margin-y{
     margin-top: 13px;
@@ -155,4 +161,7 @@ font-size: 30px;
 .img{
     width: 25px;
     height: 15px;
+}
+.wave{
+    background-color: #F5F5F5;
 }
