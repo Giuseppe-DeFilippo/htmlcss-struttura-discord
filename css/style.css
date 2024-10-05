@@ -2,6 +2,7 @@
     --color-blu:#255EE9;
     --color-grey:#F5F5F5;
     --color-footer:#23272A;
+    --color-button:#7289DA;
 }
 *{
     margin: 0;
@@ -20,7 +21,7 @@ header{
     margin-left: 1em;
     margin-right: 1em;
 }
-#button, #mac, #button-browser{
+#button, #mac {
     padding: 1em;
     background-color: white;
     border-radius: 17px;
@@ -36,8 +37,11 @@ body{
     
 }
 .button-browser{
-background-color: black !important;
+background-color: black; 
 color: white;
+padding: 1em;
+border-radius: 17px;
+border: none;
 }
 .font-size{
     font-size: large;
@@ -49,8 +53,11 @@ color: white;
 .color-white{
     color: white;
 }
-.debug{
+/*.debug{
     border: 1px solid red;
+}*/
+.scritte{
+    font-size: 40px;
 }
 .bg-blu{
     background-color: #255EE9; 
@@ -106,4 +113,42 @@ align-items: center;
 }
 .center{
     justify-content: center;
+}
+.padding-top{
+    padding-top: 13em;
+}
+.margin-y{
+    margin-top: 13px;
+    margin-bottom:13px ;
+}
+.padding-h2{
+    padding-top: 35px;
+}
+.padding-p{
+    padding-top: 20px;
+}
+.padding-y{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+#bg-image{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+}
+.button-color{
+    background-color: var(--color-button);
+    
+color: white;
+padding: 1em;
+border-radius: 17px;
+border: none;
+margin-bottom: 100px;
+}
+.color-blu{
+    color: var(--color-button);
+}
+.testo{
+
 }
