@@ -38,6 +38,26 @@ body{
 .content{
     width: 40%;
 }
-.flex{
-    width: 60%;
+
+.column{
+    flex-direction: column;
+}
+.row{
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.space{
+    justify-content: space-around;
+}
+.marginleft4{
+    margin-left: 4em;
+}
+ul{
+    list-style-type: none;
+}
+.grow3{
+    flex-grow: 2;
+}
+.grow1{
+    flex-grow: 1;
 }
